@@ -26,7 +26,7 @@ const App = () => {
       <Navbar products={allProducts} />
       <div className="max-w-7xl mx-auto pt-0 px-6">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/stores" element={<Stores />} />
           <Route path="/store/FabioS" element={<FabioS />} />
           <Route path="/store/Fraganza" element={<Fraganza />} />

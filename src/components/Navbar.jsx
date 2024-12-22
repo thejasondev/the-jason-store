@@ -35,7 +35,7 @@ const Navbar = ({ products }) => {
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <Link to="/" className="text-lg flex items-center justify-center">
+            <Link to="/home" className="text-lg flex items-center justify-center">
               <Store className="w-12 h-12 mr-1" />
               <div className="flex flex-col text-lg ml-2">
                 <span className="text-slate-500 text-xl text-center leading-none">
