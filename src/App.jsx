@@ -22,7 +22,7 @@ const App = () => {
     ...FraganzaProductos,
   ];
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/the-jason-store">
       <Navbar products={allProducts} />
       <div className="max-w-7xl mx-auto pt-0 px-6">
         <Routes>
