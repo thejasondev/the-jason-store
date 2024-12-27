@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/Logos/logo.png";
 
 const Home = () => {
   return (
@@ -16,13 +15,6 @@ const Home = () => {
         <h3 className="text-base lg:text-xl text-gray-600 mb-5">
           Somos un TODO en UNO!.
         </h3>
-        <div className="mt-5 mb-5">
-          <img
-            src={logo}
-            alt="Logo TheJasonSTORE"
-            className="w-40 h-auto mx-auto object-cover rounded-full hover:shadow-lg"
-          />
-        </div>
         <Link
           to="/discounts"
           className="rounded cursor-pointer p-2 mx-10 bg-black text-white font-semibold"
