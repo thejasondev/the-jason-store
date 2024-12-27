@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/Logos/logo.png";
 
-const Inicio = () => {
+const Home = () => {
   return (
     <section className="flex flex-row items-center relative ml-20 mt-10 lg:mt-0 mb-10">
       <div className="w-1/2">
@@ -36,4 +36,4 @@ const Inicio = () => {
   );
 };
 
-export default Inicio;
+export default Home;

@@ -33,7 +33,7 @@ import camiseta9 from "../assets/Productos/SkalaProductos/camiseta9.jpg";
 import camiseta10 from "../assets/Productos/SkalaProductos/camiseta10.jpg";
 
 export const navItems = [
-  { label: "Inicio", to: "/" },
+  { label: "Home", to: "/" },
   { label: "Tiendas", to: "/stores" },
   { label: "Descuentos", to: "/discounts" },
   { label: "Contacto", to: "/contact" },
