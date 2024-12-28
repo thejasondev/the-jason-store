@@ -22,7 +22,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-12">
           <Link
             to="/discounts"
-            className="flex items-center justify-center px-6 py-3 rounded-lg cursor-pointer bg-black text-white font-semibold"
+            className="flex items-center justify-center px-4 py-2 text-sm md:px-6 md:py-3 md:text-base rounded-lg cursor-pointer bg-black text-white font-semibold hover:bg-gray-800 transition"
           >
             Descuentos
           </Link>
