@@ -19,12 +19,14 @@ const Home = () => {
             className="mx-auto w-40 h-auto rounded-full"
           />
         </div>
-        <Link
-          to="/discounts"
-          className="flex items-center justify-center px-6 py-3 rounded-lg cursor-pointer bg-black text-white font-semibold"
-        >
-          Descuentos
-        </Link>
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-12">
+          <Link
+            to="/discounts"
+            className="flex items-center justify-center px-6 py-3 rounded-lg cursor-pointer bg-black text-white font-semibold"
+          >
+            Descuentos
+          </Link>
+        </div>
       </div>
     </section>
   );
