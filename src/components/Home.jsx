@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section className="relative py-12 bg-white">
       <div className="container mx-auto text-center">
-        <h1 className="text-3xl font-bold mb-6">Bienvenido a Nuestra Tienda</h1>
+        <h1 className="text-3xl font-bold mb-6">Bienvenido</h1>
         <p className="text-gray-600 mb-6">
           Nuestra tienda es un lugar donde encontrarás las mejores ofertas en
           tecnología, ropa, comida y mucho más. Ofrecemos productos de alta

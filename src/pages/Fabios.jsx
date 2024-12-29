@@ -23,7 +23,7 @@ function Fabios() {
             <img
               src={producto.imagen}
               alt={producto.nombre}
-              className="w-full h-64 object-contain rounded-lg mb-4 md:h-12 lg:h-80"
+              className="w-full h-64 object-center rounded-md mb-4 md:h-12 lg:h-80"
             />
             <h3 className="text-lg font-bold">{producto.nombre}</h3>
             <p className="text-gray-600 mb-4">{producto.descripcion}</p>

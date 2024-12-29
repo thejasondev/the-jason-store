@@ -10,29 +10,37 @@ const ProductDetail = ({ products }) => {
   }
 
   return (
-    <div className="relative border p-4 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300">
-      <h1 className=" text-center text-lg font-bold">{product.nombre}</h1>
+    <div className="max-w-2xl mx-auto mt-5 p-4 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300">
+      <h1 className="text-center text-2xl font-bold mb-4">{product.nombre}</h1>
       <img
-        className="w-full h-64 object-contain rounded-lg mb-4 md:h-12 lg:h-80"
+        className="w-full h-64 object-center rounded-md mb-4 sm:h-56 md:h-64 lg:h-80"
         src={product.imagen}
         alt={product.nombre}
       />
       <p className="text-center text-gray-600 mb-4">{product.descripcion}</p>
-      <span className="text-gray-600 font-bold text-xl">${product.precio}</span>
-      <a
-        href={`https://wa.me/5353118193?text=Estoy%20interesado%20en%20el%20producto%20${encodeURIComponent(
-          product.nombre
-        )}%20por%20${product.precio}USD`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="absolute bottom-0 right-0 mb-4 mr-4 rounded cursor-pointer p-2 bg-black text-white font-semibold"
-      >
-        Comprar
-      </a>
+      <div className="text-center mb-4">
+        <span className="text-gray-600 font-bold text-xl">
+          ${product.precio}
+        </span>
+      </div>
+      <div className="text-center">
+        <a
+          href={`https://wa.me/5353118193?text=Estoy%20interesado%20en%20el%20producto%20${encodeURIComponent(
+            product.nombre
+          )}%20por%20${product.precio}USD`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block rounded cursor-pointer p-2 bg-black text-white font-semibold"
+        >
+          Comprar
+        </a>
+      </div>
     </div>
   );
 };
+
 ProductDetail.propTypes = {
   products: PropTypes.array.isRequired,
 };
+
 export default ProductDetail;
