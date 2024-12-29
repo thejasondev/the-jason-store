@@ -2,7 +2,7 @@ import user1 from "../assets/Logos/fabios.webp";
 import user2 from "../assets/Logos/tutto.webp";
 import user3 from "../assets/Logos/skala.webp";
 
-import iphone1 from "../assets/Poductos/FabioProductos/iphone1.jpeg";
+import iphone1 from "../assets/Productos/FabioProductos/iphone1.jpeg";
 import iphone2 from "../assets/Productos/FabioProductos/iphone2.jpeg";
 import iphone3 from "../assets/Productos/FabioProductos/iphone3.jpeg";
 import iphone4 from "../assets/Productos/FabioProductos/iphone4.jpeg";
@@ -12,7 +12,7 @@ import iphone7 from "../assets/Productos/FabioProductos/iphone7.jpeg";
 import iphone8 from "../assets/Productos/FabioProductos/iphone8.jpeg";
 import iphone9 from "../assets/Productos/FabioProductos/iphone9.jpeg";
 
-import perfume1 from "..assets/Productos/FraganzaProductos/perfume1.jpg";
+import perfume1 from "../assets/Productos/FraganzaProductos/perfume1.jpg";
 import perfume2 from "../assets/Productos/FraganzaProductos/perfume2.jpg";
 import perfume3 from "../assets/Productos/FraganzaProductos/perfume3.jpg";
 import perfume4 from "../assets/Productos/FraganzaProductos/perfume4.jpg";
