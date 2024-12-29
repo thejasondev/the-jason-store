@@ -1,36 +1,36 @@
-import user1 from "src/assets/Logos/fabios.webp";
-import user2 from "src/assets/Logos/tutto.webp";
-import user3 from "src/assets/Logos/skala.webp";
+import user1 from "../assets/Logos/fabios.webp";
+import user2 from "../assets/Logos/tutto.webp";
+import user3 from "../assets/Logos/skala.webp";
 
-import iphone1 from "src/assets/Poductos/FabioProductos/iphone1.jpeg";
-import iphone2 from "src/assets/Productos/FabioProductos/iphone2.jpeg";
-import iphone3 from "src/assets/Productos/FabioProductos/iphone3.jpeg";
-import iphone4 from "src/assets/Productos/FabioProductos/iphone4.jpeg";
-import iphone5 from "src/assets/Productos/FabioProductos/iphone5.jpeg";
-import iphone6 from "src/assets/Productos/FabioProductos/iphone6.jpeg";
-import iphone7 from "src/assets/Productos/FabioProductos/iphone7.jpeg";
-import iphone8 from "src/assets/Productos/FabioProductos/iphone8.jpeg";
-import iphone9 from "src/assets/Productos/FabioProductos/iphone9.jpeg";
+import iphone1 from "../assets/Poductos/FabioProductos/iphone1.jpeg";
+import iphone2 from "../assets/Productos/FabioProductos/iphone2.jpeg";
+import iphone3 from "../assets/Productos/FabioProductos/iphone3.jpeg";
+import iphone4 from "../assets/Productos/FabioProductos/iphone4.jpeg";
+import iphone5 from "../assets/Productos/FabioProductos/iphone5.jpeg";
+import iphone6 from "../assets/Productos/FabioProductos/iphone6.jpeg";
+import iphone7 from "../assets/Productos/FabioProductos/iphone7.jpeg";
+import iphone8 from "../assets/Productos/FabioProductos/iphone8.jpeg";
+import iphone9 from "../assets/Productos/FabioProductos/iphone9.jpeg";
 
-import perfume1 from "src/assets/Productos/FraganzaProductos/perfume1.jpg";
-import perfume2 from "src/assets/Productos/FraganzaProductos/perfume2.jpg";
-import perfume3 from "src/assets/Productos/FraganzaProductos/perfume3.jpg";
-import perfume4 from "src/assets/Productos/FraganzaProductos/perfume4.jpg";
-import perfume5 from "src/assets/Productos/FraganzaProductos/perfume5.jpg";
-import perfume6 from "src/assets/Productos/FraganzaProductos/perfume6.jpg";
-import perfume7 from "src/assets/Productos/FraganzaProductos/perfume7.jpg";
-import perfume8 from "src/assets/Productos/FraganzaProductos/perfume8.jpg";
+import perfume1 from "..assets/Productos/FraganzaProductos/perfume1.jpg";
+import perfume2 from "../assets/Productos/FraganzaProductos/perfume2.jpg";
+import perfume3 from "../assets/Productos/FraganzaProductos/perfume3.jpg";
+import perfume4 from "../assets/Productos/FraganzaProductos/perfume4.jpg";
+import perfume5 from "../assets/Productos/FraganzaProductos/perfume5.jpg";
+import perfume6 from "../assets/Productos/FraganzaProductos/perfume6.jpg";
+import perfume7 from "../assets/Productos/FraganzaProductos/perfume7.jpg";
+import perfume8 from "../assets/Productos/FraganzaProductos/perfume8.jpg";
 
-import camiseta1 from "src/assets/Productos/SkalaProductos/camiseta1.jpg";
-import camiseta2 from "src/assets/Productos/SkalaProductos/camiseta2.jpg";
-import camiseta3 from "src/assets/Productos/SkalaProductos/camiseta3.jpg";
-import camiseta4 from "src/assets/Productos/SkalaProductos/camiseta4.jpg";
-import camiseta5 from "src/assets/Productos/SkalaProductos/camiseta5.jpg";
-import camiseta6 from "src/assets/Productos/SkalaProductos/camiseta6.jpg";
-import camiseta7 from "src/assets/Productos/SkalaProductos/camiseta7.jpg";
-import camiseta8 from "src/assets/Productos/SkalaProductos/camiseta8.jpg";
-import camiseta9 from "src/assets/Productos/SkalaProductos/camiseta9.jpg";
-import camiseta10 from "src/assets/Productos/SkalaProductos/camiseta10.jpg";
+import camiseta1 from "../assets/Productos/SkalaProductos/camiseta1.jpg";
+import camiseta2 from "../assets/Productos/SkalaProductos/camiseta2.jpg";
+import camiseta3 from "../assets/Productos/SkalaProductos/camiseta3.jpg";
+import camiseta4 from "../assets/Productos/SkalaProductos/camiseta4.jpg";
+import camiseta5 from "../assets/Productos/SkalaProductos/camiseta5.jpg";
+import camiseta6 from "../assets/Productos/SkalaProductos/camiseta6.jpg";
+import camiseta7 from "../assets/Productos/SkalaProductos/camiseta7.jpg";
+import camiseta8 from "../assets/Productos/SkalaProductos/camiseta8.jpg";
+import camiseta9 from "../assets/Productos/SkalaProductos/camiseta9.jpg";
+import camiseta10 from "../assets/Productos/SkalaProductos/camiseta10.jpg";
 
 export const navItems = [
   { label: "Home", to: "/" },
