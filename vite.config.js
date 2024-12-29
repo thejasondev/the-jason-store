@@ -1,8 +1,15 @@
 import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-export default defineConfig({
-  base: import.meta.env.VITE_GITHUB_PAGES === "true" ? "/thejasonstore/" : "/",
-  rollupOptions: {
-    input: "index.html",
-  },
+export default defineConfig(({ mode }) => {
+  
+  const base = mode === "gh-pages" ? "/the-jason-store/" : "/";
+
+  return {
+    plugins: [react()],
+    base: base,
+    rollupOptions: {
+      input: "index.html",
+    },
+  };
 });
