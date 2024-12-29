@@ -1,8 +1,9 @@
-import { Menu, X, Store, Search } from "lucide-react";
+import { Menu, X, Search } from "lucide-react";
 import { useState } from "react";
 import { navItems } from "../constants";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import logo from "../assets/Logos/logo.png";
 
 const Navbar = ({ products }) => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -35,18 +36,13 @@ const Navbar = ({ products }) => {
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <Link to="/" className="text-lg flex items-center justify-center">
-              <Store className="w-12 h-12 mr-1" />
-              <div className="flex flex-col text-lg ml-2">
-                <span className="text-slate-500 text-xl text-center leading-none">
-                  The
-                </span>
-                <span className="font-semibold text-slate-800 text-xl leading-none">
-                  JASON
-                </span>
-                <span className="text-slate-500 text-xl text-center leading-none">
-                  Store
-                </span>
+            <Link to="/" className="flex items-center justify-center">
+              <div className="m-auto">
+                <img
+                  src={logo}
+                  alt="Logo TheJasonSTORE"
+                  className="mx-auto w-20 h-auto rounded-full"
+                />
               </div>
             </Link>
           </div>
