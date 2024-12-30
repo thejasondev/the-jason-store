@@ -1,0 +1,51 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página de Inicio -->
+  <url>
+    <loc>https://the-jason-store.vercel.app/</loc>
+    <lastmod>2024-12-29</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Página de Tiendas -->
+  <url>
+    <loc>https://the-jason-store.vercel.app/store</loc>
+    <lastmod>2024-12-29</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Tienda: FabiOS -->
+  <url>
+    <loc>https://the-jason-store.vercel.app/store/FabiOs</loc>
+    <lastmod>2024-12-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tienda: Fraganza -->
+  <url>
+    <loc>https://the-jason-store.vercel.app/store/Fraganza</loc>
+    <lastmod>2024-12-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tienda: Skala -->
+  <url>
+    <loc>https://the-jason-store.vercel.app/store/Skala</loc>
+    <lastmod>2024-12-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Página de Descuentos -->
+  <url>
+    <loc>https://the-jason-store.vercel.app/discounts</loc>
+    <lastmod>2024-12-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página de Contacto -->
+  <url>
+    <loc>https://the-jason-store.vercel.app/contact</loc>
+    <lastmod>2024-12-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+</urlset>
+
